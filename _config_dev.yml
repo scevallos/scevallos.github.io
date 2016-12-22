@@ -1,0 +1,32 @@
+# Site settings
+title: Sebastian Cevallos
+email: "sebastian.cevallos@pomona.edu"
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome to Sebastian's website!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: sebas9502
+github_username:  scevallos
+
+
+# author:
+#   name: 'NAME'
+#   first_name: 'FIRST'
+#   last_name: 'LAST'
+#   email: 'sebastian.cevallos@pomona.edu'
+#   # facebook_username: 'jiakunnj'
+#   github_username: 'scevallos'
+#   head_img: 'static/img/landing/Sebastian.jpg'
+#   desc: 'Pomona College, Class of 2018 | Computer Science Major, Math & Chemistry Minor | Code2040 Finalist | QuestBridge Mentor | Ballroom Dancer | Volleyball Player | Human Being'
+
+# Build settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
