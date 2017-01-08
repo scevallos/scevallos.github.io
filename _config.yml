@@ -1,30 +1,50 @@
+url: https://scevallos.github.io
+baseurl: ""
+
 # Site settings
 title: Sebastian Cevallos
-email: "sebastian.cevallos@pomona.edu"
-description: > # this means to ignore newlines until "baseurl:"
-  Welcome to Sebastian's website!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://scevallos.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: sebas9502
-github_username:  scevallos
+email: sebastian.cevallos@pomona.edu
+description: "Welcome to my website!"
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/sebas9502
+  - title: linkedin
+    url: https://www.linkedin.com/in/sebastianlcevallos
+  - title: github
+    url: https://github.com/scevallos
+  - title: envelope-o
+    url: mailto:sebastian.cevallos@pomona.edu
+
+# Project Info
+projects:
+  - title: JerryBot
+    description: "JerryBot is a Facebook Messenger Chat Bot that my friend, Matt Gee, and I developed. Named after a mutual friend, JerryBot's original intention was to fetch the 5C dining hall menus, but he has grown into so much more. He's able to fetch the weather, translate text to different languages, compute how much you should tip, etc. I'm currently working on implementing a machine learning algorithm using word2vec that would allow JerryBot to suggest dining halls based on your food preferences."
+    github: https://github.com/0ffkilter/JerryBot
+    matt: https://github.com/0ffkilter
+    profile: https://www.facebook.com/jerry.bot.100
+    pic: img/jb.jpg
+  - title: Planoma
+    description: "Planoma is an organizational tool I created to help Pomona students decide which classes to take based on current or prospective major and general interests. A portmanteau of 'Pomona' and 'Planner,' it is still a work in progress."
+    github: https://github.com/scevallos
+    pic: img/planoma1.jpg
+  #- title: Hung Thai-mer
+  #  description: "Desc goes here // productivity // personal profiles // learn & track patterns, collect data --> ML //"
+  #  github: https://github.com/scevallos
+  #  pic: img/jb.jpg
+  #- title: Dominos AI
+  #  description: "Desc of game goes here// JavaScript based // ML opponent // Fun little thing"
+  #  github: https://github.com/scevallos
+  #  pic: img/jb.jpg
 
 
-# author:
-#   name: 'NAME'
-#   first_name: 'FIRST'
-#   last_name: 'LAST'
-#   github_username: 'scevallos'
-#   head_img: 'static/img/landing/Sebastian.jpg'
-#   desc: 'Pomona College, Class of 2018 | Computer Science Major, Math & Chemistry Minor | Code2040 Finalist | QuestBridge Mentor | Ballroom Dancer | Volleyball Player | Human Being'
+# Analytics settings
+analytics:
+  provider: google
+  google:
+    tracking_id: 'xxx'
 
 # Build settings
-sass:
-  sass_dir: _sass
-include: ['_pages']
 markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+permalink: pretty
