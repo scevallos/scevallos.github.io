@@ -17,7 +17,7 @@
                         </div>
                         <div class="timeline-body">
                             <p class="text-muted">{{ project.description }}</p>
-                            <p class="subheading"> Links: <a href="https://www.github.com/scevallos" target="_blank">GitHub</a> • 
+                            <p class="subheading"> Links: <a href="{{ project.github }}" target="_blank">GitHub</a> • 
                             {% if project.matt %}
                                 <a href="{{ project.matt }}" target="_blank">Matt Gee</a> • 
                             {% endif%}
