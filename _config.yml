@@ -26,8 +26,8 @@ projects:
     profile: https://www.facebook.com/jerry.bot.100
     pic: img/jb.jpg
   - title: Planoma
-    description: "Planoma is an organizational tool I created to help Pomona students decide which classes to take based on current or prospective major and general interests. A portmanteau of 'Pomona' and 'Planner,' it is still a work in progress."
-    github: https://github.com/scevallos
+    description: "Planoma is an organizational tool I worked on to help Pomona students decide which classes to take based on current or prospective major. The title is a portmanteau of 'Pomona' and 'Planner.'"
+    github: https://github.com/scevallos/Planoma
     pic: img/planoma1.jpg
   #- title: Hung Thai-mer
   #  description: "Desc goes here // productivity // personal profiles // learn & track patterns, collect data --> ML //"
