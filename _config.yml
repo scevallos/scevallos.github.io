@@ -16,6 +16,8 @@ social:
     url: https://github.com/scevallos
   - title: envelope-o
     url: mailto:sebastian.cevallos@pomona.edu
+  - title: key
+    url: assets/myPubKey.asc
 
 # Project Info
 projects:
