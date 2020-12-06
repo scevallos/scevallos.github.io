@@ -43,6 +43,7 @@ projects:
 
 
 # Analytics settings
+google_analytics: G-FG83BW22ZX
 analytics:
   provider: google
   google:
